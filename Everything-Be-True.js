@@ -1,5 +1,5 @@
 function truthCheck(collection, pre) {
-  // check every object are return true if they all pass the truthy tests below. False if not.
+  // check every object and return true if they all pass the truthy tests below. False if not.
   return collection.every(function (obj) {
     return (
       // Is pre in current obj?
